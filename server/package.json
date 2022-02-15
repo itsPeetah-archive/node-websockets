@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "express": "nodemon express-index.js",
+    "ws": "nodemon ws-index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-ws": "^5.0.2",
+    "nodemon": "^2.0.15",
+    "ws": "^8.5.0"
+  }
+}
